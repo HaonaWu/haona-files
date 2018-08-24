@@ -1,0 +1,36 @@
+  h1{
+    color:black;
+    text-align: center;
+  }
+
+body{
+  font-family:"Palatino Linotype, Helvetica, sans-serif";
+  background-image:url("background3.jpeg");
+  background-size: 1600px 1000px;
+  background-repeat: no-repeat;
+  background-color:pink;
+  margin-right: 200px;
+  margin-left: 200px;
+  text-align:center;
+  line-height: 2;
+}
+  /* Three image containers (use 25% for four, and 50% for two, etc) */
+  .images
+{
+display: inline;
+margin: 0px;
+padding: 0px;
+}
+
+#content
+{
+display: block;
+margin: 0px;
+padding: 0px;
+position: relative;
+top: 90px;
+height: auto;
+max-width: auto;
+overflow-y: hidden;
+overflow-x:auto;
+}

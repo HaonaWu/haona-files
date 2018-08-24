@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<Title> Dom Tutorial </Title>
+<script>
+function colorMe(){
+
+  document.getElementById('color').style.color="purple";
+  document.getElementById('color').style.background="orange";
+
+}
+
+</script>
+<head>
+
+</head>
+<body>
+<form>
+
+<input type = "text" id= "cookie" />
+<input type = "button" value = "Click Me" onclick="document.getElementById('cake').innerHTML=document.getElementById('cookie').value"/>
+
+</form>
+My name is:
+
+<h1 id="color">Hello World </h1>
+<button onclick="colorMe()"> Click Me!</button>
+
+
+</body>
+</html>

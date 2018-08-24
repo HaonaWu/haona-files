@@ -1,0 +1,14 @@
+html, body{
+    background-color: #FDFDFD;
+}
+
+h1{
+    text-align: center;
+    color: #353535;
+    font: normal 50px Palatino, "Palatino Linotype", serif;
+}
+
+canvas{
+    background-color: #E50053;
+    margin-left: 20%;
+}
